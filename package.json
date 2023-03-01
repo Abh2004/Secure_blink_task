@@ -1,0 +1,41 @@
+{
+  "name": "tailwind-vue-starter",
+  "version": "1.0.0",
+  "description": "A free and open-source starter project to help you get started with the core Flowbite Library components and Vue 3",
+  "license": "MIT",
+  "repository": "https://github.com/themesberg/tailwind-vue-starter",
+  "homepage": "https://flowbite.com/docs/getting-started/vue/",
+  "contributors": [
+    "Zoltán Szőgyényi (https://twitter.com/zoltanszogyenyi)"
+  ],
+  "author": "Bergside Inc.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vuelidate/core": "^2.0.0",
+    "@vuelidate/validators": "^2.0.0",
+    "bootstrap": "^5.3.0-alpha1",
+    "build": "^0.1.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "flowbite": "^1.6.3",
+    "mdb-vue-ui-kit": "^3.2.0",
+    "multer": "^1.4.5-lts.1",
+    "validators": "^0.3.1",
+    "vue": "^3.2.25",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.4",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4",
+    "vite": "^2.9.15",
+    "vuejs-validators": "^1.1.8"
+  }
+}
